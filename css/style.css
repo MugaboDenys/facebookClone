@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
+a {text-decoration: none;}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 4rem ;
+    align-items: center;
+}
+.navright {
+    display: flex;
+    gap: 4rem;
+}
+.navleft {
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+}
+.navItems{
+    display: flex;
+    align-items: flex-end;
+    gap: 2.6rem;
+}
+.navItem {
+    display: flex;
+    align-items: center;
+    gap: px;
+}
+.item1{
+    border-right: 1px solid;
+    padding: 10px 30px 10px;
+}
+.item2{
+    font-size: 30px;
+}
+.navItem span{
+    font-size: 1.3em; 
+}
+.navItem a{
+    color: rgb(41, 41, 41); 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo img {
+    width: 7.5rem;
+    height: auto;
+}
+
+.sect1{
+    max-width: 100%;
+    margin: 10rem 4rem;
+    display: flex;
+    gap: 5em;
+    flex-direction: column;
+    align-items: center;
+}
+.sect1Cont1{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40em;
+}
+.sect1Cont1 a{
+    font-size: 1.5rem;
+    color: rgb(41, 41, 41); 
+}
+
+.sect1Cont1 span{
+    font-size: 2rem;
+}
+.link:hover{
+    color: rgb(80, 80, 80); 
+}
+.sect1Cont1 h2{
+    font-size: 4em;
+    font-weight: 500;
+    text-align: center;
+}
+.sect1cont2 {
+    width: 80%
+}
+.sect1cont2 img{
+    width: 100%;
+}
+.sect1Cont3{
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.sect1Cont3 img{
+    width: 12em;
+}
+.SCWords{
+    max-width: 60em;
+}
+.sect1Cont3 h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+.section2{
+    background: rgb(227, 231, 231);
+    width: 100%;
+    padding-bottom: 6rem;    
+}
+.sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sect2Cont1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
+    width: 80%;
+    text-align: center;
+}
+.sect2Header {
+    max-width: 50rem;
+}
+.sect2Cont1 h2{
+    font-size: 3em;
+    font-weight: 500;
+}
+.sect2Cont1 p{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    color: rgb(58, 58, 58);
+}
+.sect2Cont1 a{
+    font-size: 1.5rem;
+    color: rgb(41, 41, 41); 
+}
+
+.sect2Cont1 span{
+    font-size: 2rem;
+}
+.sect2cont2 video{
+    width: 100%;
+}
+.sect2cont2{
+    width: 80%;
+}
+.sect2cont3 {
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.sect2F{
+    width: 80%;
+    margin: auto;
+}
+.sect2cont4 {
+    display: flex;
+    gap: 4rem;
+}
+.sect2cont4Item {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+.sect2cont4Item img{
+    width: 10em;
+    justify-self: start;
+}
+.sect2cont4Item h4{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.sect2cont4Item span{
+    font-size: 3em;
+    padding-right: 40px;
+}
